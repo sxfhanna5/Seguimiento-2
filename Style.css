@@ -1,8 +1,10 @@
 header {
     text-align: center;
+
 }
+
 nav {
-   
+
     color: white;
     padding: 10px 0 10px 0;
     margin-top: 0px;
@@ -10,89 +12,338 @@ nav {
 
 nav ul li {
     display: inline;
-    margin: 0 25px;
+    margin: 0 100px;
 }
 
 nav ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.Education{
-    padding: 30px;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 60px;
+    background: #fff;
+}
+
+.info {
+    width: 65%;
+}
+
+
+
+
+.profile p {
+
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 30%;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.sidebar h1 {
+    font-size: 65px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.title {
+    background: #f4c69f;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+
+.Educacion {
+    margin-left: 25px;
+    font-size: 60px;
+
     border-top: 3px solid black;
 }
 
+.Education {
 
-.Education{
+    padding: 70px;
+
+}
+
+
+.Education {
     padding: 40px;
-    border-bottom: 3px solid black;
+
 }
 
-    
-    
-.Education{
+
+
+.Education {
     background-color: white;
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
 
 }
-.Education-container{
+
+.Education-container {
     display: flex;
-    
+    padding-bottom: 25px;
+
+
+
 }
-.Education-element{
+
+.Education-element {
     padding: 25px;
     width: 50%;
     text-align: justify;
 }
-.borde{
+
+.borde {
     border-left: 3px solid black;
-}    
-    
-.Experience{
+}
+
+.Experience {
     background-color: white;
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
 
 }
-.Experience-container{
+
+.Experience-container {
     display: flex;
-    
+
 }
-.Experience-element{
+
+.Experience-element {
     padding: 25px;
     width: 50%;
     text-align: justify;
 }
-.borde{
+
+.borde {
     border-left: 3px solid black;
 }
 
 
 
 
-.Otro{
+.Otro {
     background-color: white;
     width: 100%;
     padding-right: 50px;
     padding-top: 50px;
+    padding-bottom: 25px;
+
+
 
 }
-.Otro-container{
+
+.Otro-container {
     display: flex;
-    
+    padding-bottom: 25px;
+
+
 }
-.Otro-element{
+
+.Otro-element {
     padding: 25px;
     width: 50%;
     text-align: justify;
 }
-.borde{
+
+.borde {
     border-left: 3px solid black;
+
+}
+
+.skills-section {
+    padding-left: 70px;
+    text-align: left;
+    padding-bottom: 25px;
+
+}
+
+.skills-section h2 {
+
+    font-weight: bold;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.column {
+    width: 45%;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.barra-container {
+    width: 70%;
+    height: 6px;
+    background-color: #d3d3d3;
+    position: relative;
+}
+
+.barra {
+    height: 100%;
+    background-color: black;
+}
+
+.python .barra {
+    width: 80%;
+}
+
+.javascript .barra {
+    width: 75%;
+}
+
+.cpp .barra {
+    width: 100%;
+}
+
+.ruby .barra {
+    width: 50%;
+}
+
+.cswift .barra {
+    width: 45%;
+}
+
+.sql .barra {
+    width: 95%;
+}
+
+.separator {
+    width: 2px;
+    background-color: black;
+    height: 100%;
+    margin: 0 10px;
 }
 
 
 
 
+.top-line,
+.bottom-line {
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+.languages {
+    width: 40%;
+}
+
+.divider {
+    width: 2px;
+    background: black;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.certifications {
+    width: 58%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar-container {
+    width: 70%;
+}
+
+.bar {
+    width: 100%;
+    height: 8px;
+    background: lightgray;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fill {
+    height: 100%;
+    background: black;
+}
+
+.english {
+    width: 90%;
+}
+
+.german {
+    width: 40%;
+}
+
+.french {
+    width: 50%;
+}
+
+.spanish {
+    width: 70%;
+}
+
+.turkish {
+    width: 30%;
+}
+
+.cert-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cert {
+    width: 48%;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.year,
+.university {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.desc {
+    font-size: 12px;
+    color: gray;
+}
